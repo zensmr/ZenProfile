@@ -1,0 +1,114 @@
+.contact {
+    padding: 100px 15px;
+
+}
+
+.contact .row .title h1::before {
+    left: 30%;
+}
+
+.contact-form {
+    background-color: #fff;
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding: 40px;
+    border: 1.5px solid #eee;
+    border-radius: 5px;
+
+    background-image: -webkit-linear-gradient(135deg, #0eeff0 30%, #088f90 90%);
+    background-image: linear-gradient(135deg, #0eeff0 30%, #088f90 90%);
+    position: relative;
+    z-index: 3;
+    padding:100px;
+    color: #999;
+}
+
+.contact-text {
+    flex: 0 0 100%;
+    max-width: 100%;
+    padding-bottom: 20px;
+}
+
+.contact-text h2 {
+    font-size: 26px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.contact-text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #838383;
+    margin: 0;
+}
+
+.contact-form .row {
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    flex: 0 0 calc(50% - 15px);
+    max-width: calc(50% - 15px);
+}
+
+.col-6 input {
+    border-radius: 5px;
+}
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.form-control {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.contact-form textarea.form-control {
+    height: 120px;
+    border-radius: 5px;
+}
+
+.form-control::placeholder {
+    color: #838383
+}
+
+.contact-form .button {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.contact-form .btn a {
+    background-color: #5f88e0;
+    float: none;
+    position: relative;
+    z-index: 5;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #01143e;
+    background-size: 50px 20px;
+    background-image: -webkit-linear-gradient(
+                                            45deg,
+                                            rgba(255, 255, 255, 0.15) 25%,
+                                            rgba(0,0,0,0) 25%,
+                                            rgba(0.2,0,0,0) 50%,
+                                            rgba(255, 255, 255, 0.15) 75%,
+                                            rgba(0,0,0,0) 75%,
+                                            rgba(0,0,0.4,0)
+                                            );
+}
+
+.contact-form .btn a:hover {
+    color: #fff;
+    background-color: #f23;
+}
